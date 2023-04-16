@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,61 +10,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css" />
-</head>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css" />
+  </head>
 
-<body>
+  <body>
     <!-- navbar -->
     <nav>
-        <a href="#" class="logo"> WILLIAM'S </a>
+      <a href="#" class="logo"> WILLIAM'S </a>
 
-        <div class="navbar-nav">
-            <a href="#">About</a>
-            <a href="#">Pricing</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="navbar-extra">
-            <a href="#" id="menu"><i class="fi fi-sr-bars-staggered"></i></a>
-        </div>
+      <div class="navbar-nav">
+        <a href="#">About</a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="menu"><i class="fi fi-sr-bars-staggered" onclick="menu(this)"></i></a>
+        <!--    <a href="#" id="close" class="close"><i class="fi fi-br-cross"></i></a> -->
+      </div>
     </nav>
 
     <!-- hero -->
     <section class="home" id="home">
-        <div class="hero">
-            <main class="content">
-                <div class="headline">
-                    <h2>Hi, my name is <span>William.</span><br /></h2>
-                </div>
+      <div class="hero">
+        <main class="content">
+          <div class="headline">
+            <h2>Hi, my name is <span>William.</span><br /></h2>
+          </div>
 
-                <div class="typing-txt">
-                    <div class="static-txt">
-                        <h2>I'm a</h2>
-                    </div>
+          <div class="typing-txt">
+            <div class="static-txt">
+              <h2>I'm a</h2>
+            </div>
 
-                    <div class="dynamic-txt">
-                        <ul>
-                            <li><span>Developer.</span></li>
-                            <li><span>Designer.</span></li>
-                            <li><span>Editor.</span></li>
-                            <li><span>Freelancer.</span></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="dynamic-txt">
+              <ul>
+                <li><span>Developer.</span></li>
+                <li><span>Designer.</span></li>
+                <li><span>Editor.</span></li>
+                <li><span>Freelancer.</span></li>
+              </ul>
+            </div>
+          </div>
 
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br /> Enim unde ad ratione vel laborum odit.
-                </p>
-                <button class="download">Download CV</button>
-                <button class="work">Work with me!</button>
-            </main>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+            Enim unde ad ratione vel laborum odit.
+          </p>
+          <button class="download">Download CV</button>
+          <button class="work">Work with me!</button>
+        </main>
 
-            <img src="img/identity3-removebg-preview.png" alt="identity3" />
-        </div>
+        <img src="img/identity3-removebg-preview.png" alt="identity3" />
+      </div>
     </section>
 
     <!-- about -->
     <section class="about" id="about">
-        <div class="about-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <div class="about-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#f44708"
             fill-opacity="1"
@@ -73,64 +75,63 @@
           ></path>
         </svg>
 
-            <div class="about-headline">
-                <h3>What can i do ?</h3>
-            </div>
-            <div class="row">
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="/img/web-development1.png" alt="web" />
-                        </div>
-                        <div class="card-title">
-                            <h4>Web Development</h4>
-                        </div>
-                        <div class="card-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, debitis. Harum sunt debitis velit facilis non ad impedit ullam laborum nam earum culpa itaque nisi magnam, eveniet unde libero dolorum.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="#"> Learn more</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="/img/graphic-design1.png" alt="graphic-designer" />
-                        </div>
-                        <div class="card-title">
-                            <h4>Graphic Designer</h4>
-                        </div>
-                        <div class="card-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, debitis. Harum sunt debitis velit facilis non ad impedit ullam laborum nam earum culpa itaque nisi magnam, eveniet unde libero dolorum.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="#"> Learn more</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">
-                            <img src="/img/content-creator1.png" alt="content-creator" />
-                        </div>
-                        <div class="card-title">
-                            <h4>Editor</h4>
-                        </div>
-                        <div class="card-description">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, debitis. Harum sunt debitis velit facilis non ad impedit ullam laborum nam earum culpa itaque nisi magnam, eveniet unde libero dolorum.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="#"> Learn more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="about-headline">
+          <h3>What can i do ?</h3>
         </div>
+        <div class="row">
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="card-icon">
+                <img src="/img/web-development1.png" alt="web" />
+              </div>
+              <div class="card-title">
+                <h4>Web Development</h4>
+              </div>
+              <div class="card-description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, debitis. Harum sunt debitis velit facilis non ad impedit ullam laborum nam earum culpa itaque nisi magnam, eveniet unde libero dolorum.</p>
+              </div>
+              <div class="card-link">
+                <a href="#"> Learn more</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <img src="/img/graphic-design1.png" alt="graphic-designer" />
+              </div>
+              <div class="card-title">
+                <h4>Graphic Designer</h4>
+              </div>
+              <div class="card-description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, debitis. Harum sunt debitis velit facilis non ad impedit ullam laborum nam earum culpa itaque nisi magnam, eveniet unde libero dolorum.</p>
+              </div>
+              <div class="card-link">
+                <a href="#"> Learn more</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <img src="/img/content-creator1.png" alt="content-creator" />
+              </div>
+              <div class="card-title">
+                <h4>Editor</h4>
+              </div>
+              <div class="card-description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, debitis. Harum sunt debitis velit facilis non ad impedit ullam laborum nam earum culpa itaque nisi magnam, eveniet unde libero dolorum.</p>
+              </div>
+              <div class="card-link">
+                <a href="#"> Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- pricing -->
     <section class="pricing" id="pricing">
-        <hr />
+      <hr />
     </section>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
